@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Responsive "Rainbow Tables" Demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style type="text/css">
+/* The only style on the page is this responsive media query */
+@media screen and (max-width:720px){
+	table{display:block;}
+		td,thead th{border-color:#444;border-style:solid;border-width:0 2px 0 0;display:inline;float:left;padding:0 3px;}
+			td:last-child,th:last-child{border-right:0 none;}
+		thead th{background:transparent;font-size:1.1em;}
+		tr{display:block;float:left;clear:left;padding:6px 0;width:100%;}
+			thead tr{border-bottom:4px solid #444;margin:0 0 .3em 0;padding:0 0 .2em 0;}
+		tbody tr:nth-child(even){background:#ddd;}
+		td:nth-child(5n+1),th:nth-child(5n+1){background:#FFD8D8;}
+		td:nth-child(5n+2),th:nth-child(5n+2){background:#FFE8D8;}
+		td:nth-child(5n+3),th:nth-child(5n+3){background:#FFF8D8;}
+		td:nth-child(5n+4),th:nth-child(5n+4){background:#D8FFD8;}
+		td:nth-child(5n+5),th:nth-child(5n+5){background:#D8D8FF;}
+}
+</style>
+
+</head><body>
+<h1>Responsive "Rainbow Tables" Demo</h1>
+If the window's width is less than 720px, the media query activates, creating a cascading 5-color rainbow effect in conjunction with the usual zebra striping. Try it out by resizing the browser window.<br /><br />
+<table><caption>* denotes unfiltered internet access</caption><thead>
+	<tr><th>Resources</th><th>Children's Cabana (14)</th><th>Tween PC (11)</th><th>Teen Room PC (11)</th><th>Internet Lab PC (24)</th><th>Web Express PC (42)</th><th>Web OPAC (43)</th></tr>
+</thead><tbody>
+	<tr><td>Internet</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes*</td>
+		<td>yes</td>
+		<td>yes</td></tr>
+	<tr><td>Printing</td> 
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td></tr>
+	<tr><td>CD (Read)</td>
+		<td>no</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>no</td></tr>
+	<tr><td>Word</td>
+		<td>no</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>no</td></tr>
+	<tr><td>Excel</td>
+		<td>no</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>no</td></tr>
+	<tr><td>Powerpoint</td>
+		<td>no</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>no</td></tr>
+	<tr><td>Photo Editor</td>
+		<td>no</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>no</td></tr>
+	<tr><td>Windows Media Player</td>
+		<td>no</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>no</td></tr>
+	<tr><td>MSN Messenger</td>
+		<td>no</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>no</td></tr>
+	<tr><td>Floppy Disk</td>
+		<td>no</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>no</td></tr>
+	<tr><td>USB Flash Drive</td>
+		<td>no</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>no</td></tr>
+	<tr><td>Access</td>
+		<td>no</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>no</td></tr>
+	<tr><td>Publisher</td>
+		<td>no</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>no</td></tr>
+	<tr><td>Games</td>
+		<td>yes</td>
+		<td>yes</td>
+		<td>no</td>
+		<td>no</td>
+		<td>no</td>
+		<td>no</td></tr>
+</tbody></table>
+</body></html>
