@@ -4,7 +4,9 @@
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
 <title>Responsive "Rainbow Tables" Demo</title>
 <style type="text/css">
-/* The only style on the page is this responsive media query */
+a[href^="https://github.com"] img{border:0;position:absolute;right:0;top:0;}
+
+/* Responsive Table below */
 @media screen and (max-width:720px){
 	table{display:block;}
 		td,th{border-color:#444;border-style:solid;border-width:0 2px 0 0;display:inline;float:left;padding:0 3px;}
@@ -13,11 +15,11 @@
 		tr{display:block;float:left;clear:left;padding:6px 0;width:100%;}
 			thead tr{border-bottom:4px solid #444;margin:0 0 .3em 0;padding:0 0 .2em 0;}
 		tbody tr:nth-child(even){background:#ddd;}
-		td:nth-child(5n+1),th:nth-child(5n+1){background:#FFD8D8;}
-		td:nth-child(5n+2),th:nth-child(5n+2){background:#FFE8D8;}
-		td:nth-child(5n+3),th:nth-child(5n+3){background:#FFF8D8;}
-		td:nth-child(5n+4),th:nth-child(5n+4){background:#D8FFD8;}
-		td:nth-child(5n+5),th:nth-child(5n+5){background:#D8D8FF;}
+		td:nth-child(4n+1),th:nth-child(4n+1){background:#5a0000;color:#fff;}
+			td:nth-child(2n +1) a{color:#fff;}
+		td:nth-child(4n+2),th:nth-child(4n+2){background:#ffe0cc;}
+		td:nth-child(4n+3),th:nth-child(4n+3){background:#006400;color:#fff;}
+		td:nth-child(4n+4),th:nth-child(4n+4){background:#d8d8ff;}
 }
 </style>
 </head><body>
@@ -172,4 +174,5 @@ If the window's width is less than 720px, the media query activates, creating a 
 		<td>This-is-more-text-without-whitespace-characters</td>
 		<td><a href="http://hawidu.com/">Website</a></td></tr>
 </tbody></table>
+<a href="https://github.com/ao5357/responsivetables"><img src="https://a248.e.akamai.net/assets.github.com/img/7afbc8b248c68eb468279e8c17986ad46549fb71/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub"></a>
 </body></html>
