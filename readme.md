@@ -1,6 +1,8 @@
 #Responsive 'Rainbow' Tables
 This tidy bit of CSS will adapt a standard table to a usable, scrollable format at whichever content width you set in the media query.
 
+[Demo](http://ao5357.github.com/responsivetables/)
+
 ##Usage
 Paste the CSS from the ```<style>``` tag of [index.html](https://github.com/ao5357/responsivetables/blob/gh-pages/index.html)
 
